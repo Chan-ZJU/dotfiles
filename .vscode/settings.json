@@ -1,0 +1,14 @@
+{
+    "editor.codeActionsOnSave": null,
+    "editor.lineNumbers": "relative",
+    "vim.vimrc.enable": true,
+    "files.associations": {
+        "*.out": "bibtex",
+        "compute.h": "c",
+        "ctype.h": "c",
+        "main.h": "c",
+        "unistd.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled",
+    "todo-tree.tree.scanMode": "open files"
+}

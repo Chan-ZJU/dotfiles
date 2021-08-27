@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/chan/.vim/pack/vendor/start/ctrlp.vim/.git/hooks'
+let g:netrw_dirhist_5='/home/chan/.vim/pack/vendor/start/ctrlp.vim/.git'
+let g:netrw_dirhist_4='/home/chan/.vim/pack/vendor/start/ctrlp.vim'
+let g:netrw_dirhist_3='/home/chan/.vim/pack/vendor/start'
+let g:netrw_dirhist_2='/home/chan/.vim/pack/vendor'
+let g:netrw_dirhist_1='/home/chan/.vim/pack'
+let g:netrw_dirhist_0='/home/chan/.vim'
+let g:netrw_dirhist_9='/var/spool/cron/atjobs'
+let g:netrw_dirhist_8='/home/chan/wsl-demo'
+let g:netrw_dirhist_7='/home/chan'
