@@ -5,7 +5,7 @@
 #### Variables
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="bashrc p10k.zsh vim vscode git profile gitconfig vimrc zshrc oh-my-zsh"
+files="bashrc p10k.zsh vim vscode profile gitconfig vimrc zshrc oh-my-zsh"
 
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
