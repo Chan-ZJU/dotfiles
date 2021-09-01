@@ -7,7 +7,9 @@
         "compute.h": "c",
         "ctype.h": "c",
         "main.h": "c",
-        "unistd.h": "c"
+        "unistd.h": "c",
+        "iostream": "cpp",
+        "thread": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "todo-tree.tree.scanMode": "open files"
