@@ -7,7 +7,13 @@ The repository to store my dotfiles.
 ```bash
 git clone --recurse-submodules git://github.com/Chan-ZJU/dotfiles ~/dotfiles
 cd ~/dotfiles
-./install.sh (or bash install.sh)
+bash install.sh
+```
+
+If git clone oh-my-zsh failed, run the following commands:
+
+```bash
+git submodule update --init
 ```
 
 After running `install.sh`, you need to reboot to change the login shell to zsh.

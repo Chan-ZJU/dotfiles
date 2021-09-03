@@ -5,7 +5,7 @@
 #### Variables
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="bashrc p10k.zsh vim vscode profile gitconfig vimrc zshrc oh-my-zsh"
+files="bashrc p10k.zsh vim vscode profile gitconfig vimrc zshrc"
 
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
@@ -24,6 +24,10 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -sf $dir/.$file ~/.$file
 done
+
+# handle oh-my-zsh
+mv ~/.oh-my-zsh ~/dotfiles_old/
+ln -sf $dir/ohmyzsh ~/.oh-my-zsh
 
 install_zsh() {
     # Test to see if zshell is installed.  If it is:
