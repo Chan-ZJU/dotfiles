@@ -9,7 +9,16 @@
         "main.h": "c",
         "unistd.h": "c",
         "iostream": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "string": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "cctype": "cpp",
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "stdexcept": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "todo-tree.tree.scanMode": "open files"
