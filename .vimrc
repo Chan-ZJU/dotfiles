@@ -13,9 +13,13 @@ set nocompatible
 
 " Turn on syntax highlighting.
 syntax on
+set incsearch
 
 " Disable the default Vim startup message.
 set shortmess+=I
+set showmode
+set hlsearch
+set wildmenu
 
 " Show line numbers.
 set number
