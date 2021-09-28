@@ -20,7 +20,12 @@
         "fstream": "cpp",
         "stdexcept": "cpp",
         "forward_list": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "netdb.h": "c",
+        "functional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "cerrno": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "todo-tree.tree.scanMode": "open files"
