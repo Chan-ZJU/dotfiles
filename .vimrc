@@ -79,7 +79,14 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up>    :echoe "Use k"<CR>
 nnoremap <Down>  :echoe "Use j"<CR>
 " ...and in insert mode
-inoremap <Left>  <ESC>:echoe "Use h"<CR>
-inoremap <Right> <ESC>:echoe "Use l"<CR>
-inoremap <Up>    <ESC>:echoe "Use k"<CR>
-inoremap <Down>  <ESC>:echoe "Use j"<CR>
+inoremap <Left>  echoe "Use h"<CR>
+inoremap <Right> echoe "Use l"<CR>
+inoremap <Up>    echoe "Use k"<CR>
+inoremap <Down>  echoe "Use j"<CR>
+
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
