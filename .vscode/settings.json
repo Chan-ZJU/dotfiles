@@ -25,7 +25,8 @@
         "functional": "cpp",
         "istream": "cpp",
         "ostream": "cpp",
-        "cerrno": "cpp"
+        "cerrno": "cpp",
+        "random": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "todo-tree.tree.scanMode": "open files"
